@@ -7,6 +7,8 @@ public class OperadoresLogicos {
         y = 7;
         z = 12;
 
+        System.out.println("valor 1: " + x + "valor 2: " + y + "valor 3: " + z);
+
         boolean res;
 
         res = x < 4 && y < 12 ? true : false;

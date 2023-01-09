@@ -17,5 +17,6 @@ public class CondicionalComposta {
         }
 
         System.out.println("Fim do programa");
+        teclado.close();
     }
 }

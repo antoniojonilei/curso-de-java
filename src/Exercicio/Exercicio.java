@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class Exercicio {
     public static void main(String[] args) {
-        // Scanner teclado = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
 
-        // System.out.print("Digite uma idade: ");
-        // int idade = teclado.nextInt();
+        System.out.print("Digite uma idade: ");
+        int idade = teclado.nextInt();
 
-        // if (idade < 18) {
-        //     System.out.println("Não pode beber.");
-        // }
+        if (idade < 18) {
+            System.out.println("Não pode beber.");
+        }
 
-        // System.out.println("Fimd do programa");
+        System.out.println("Fim do programa");
         // -----------------------------------------------
 
 
@@ -23,5 +23,6 @@ public class Exercicio {
         String jogar = almocou && estudou ? "Pode Jogar" : "Não pode jogar";
 
         System.out.println(jogar);
+        teclado.close();
     }
 }

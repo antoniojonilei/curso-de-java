@@ -64,5 +64,6 @@ public class OperadoresAritmeticos {
         // aleatório entre 5 e 10 - por exemplo 
         double aleatoriEspecifico = 5 + Math.random() * 10 - 5;
         System.out.println(aleatoriEspecifico);
+        teclado.close();
     }   
 }
