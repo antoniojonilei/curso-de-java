@@ -1,4 +1,4 @@
-package A0013DoWhile;
+package A013DoWhile;
 
 public class DoWhile {
     public static void main(String[] args) {

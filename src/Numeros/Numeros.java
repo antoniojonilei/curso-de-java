@@ -21,5 +21,6 @@ public class Numeros {
         } while (resposta.equals("S") || resposta.equals("s"));
 
         System.out.println("A soma dos numero e: " + soma);
+        teclado.close();
     }
 }
