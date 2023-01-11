@@ -1,4 +1,4 @@
-## Curso de Java Báscio
+## Curso de Java Básico
 
 - Introdução ao Java
 - Fundamentos da linguagem Java
